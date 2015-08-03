@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Spider Translate - Bing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="<?php echo $this->url(); ?>" method="post" name="pt_en">
+            <div>Português para Inglês</div>
+            <div>
+                <input type="text" name="texto"/>
+                <br>
+                <input type="submit" value="Traduzir"/>
+            </div>
+        </form>
+        <form action="<?php echo $this->url(); ?>" method="post" name="en_pt">
+            <br>
+            <br>
+            <div>Inglês para Português</div>
+            <div>
+                <input type="text" name="text"/>
+                <br>
+                <input type="submit" value="Traduzir"/>
+            </div>
+        </form>
+        <?php
+        
+        
+        
+        ?>
+    </body>
+</html>
