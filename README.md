@@ -4,7 +4,7 @@ Para executar o sistemas, favor direcionar para a Index do projeto em: http://lo
 
 Ou se o server estiver configurado com o VirtualHost, como abaixo, favor utilizar o endereço: http://localhost/SpiderTranslate/index.php/
 
-   --<VirtualHost *:80>
+   '<'VirtualHost *:80'>'
        ServerName SpiderTranslate.local
         DocumentRoot C:/(Pasta Raiz dos Sistemas PHP)/SpiderTranslate/public
      
